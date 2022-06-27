@@ -1,5 +1,5 @@
 <template>
-  <video id="video" width="720" height="560" autoplay muted></video>
+  <video id="video" width="720" height="560" autoplay muted playsinline></video>
 </template>
 
 <script>
@@ -113,7 +113,6 @@ export default {
   },
   mounted() {
     this.loadModels();
-
   }
 }
 </script>

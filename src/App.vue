@@ -1,14 +1,12 @@
 <template>
-  <Webcam></Webcam>
+  <RouterView/>
 </template>
 
 <script>
-import Webcam from "@/components/Webcam";
 
 export default {
   name: 'App',
   components: {
-    Webcam,
   }
 }
 </script>
